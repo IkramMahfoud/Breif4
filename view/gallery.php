@@ -27,6 +27,13 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <?php
+  // include_once 'index.php';
+  // include_once 'about.php';
+  // include_once 'contact.php';
+  // include_once 'submitContact.php';
+
+  ?>
 
 
 </head>
@@ -35,10 +42,10 @@
 
   <div class="hero_area">
     <!-- header section strats -->
-    <header  class="header_section">
+    <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="images/logo.png" alt="">
             <span>
               Gold
@@ -52,16 +59,16 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="gallery.html"> Gallery</a>
+                  <a class="nav-link" href="gallery.php"> Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="about.php"> About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html"> Contact</a>
+                  <a class="nav-link" href="contact.php"> Contact</a>
                 </li>
               </ul>
 
@@ -196,9 +203,9 @@
     <!-- end slider section -->
   </div>
 
- 
 
- 
+
+
   <!-- price section -->
 
   <section class="price_section layout_padding">
@@ -264,14 +271,14 @@
           </div>
         </div>
       </div>
-      
+
     </div>
   </section>
 
   <!-- end price section -->
-   <!-- price section -->
+  <!-- price section -->
 
-   <section class="price_section layout_padding">
+  <section class="price_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -334,18 +341,18 @@
           </div>
         </div>
       </div>
-      
+
     </div>
   </section>
 
   <!-- end price section -->
-   <!-- price section -->
+  <!-- price section -->
 
-   <section class="price_section layout_padding">
+  <section class="price_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-        Earings
+          Earings
         </h2>
       </div>
       <div class="price_container">
@@ -413,7 +420,7 @@
   </section>
   <!-- end price section -->
 
-  
+
 
   <!-- info section -->
   <section class="info_section ">
@@ -509,7 +516,7 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; <span id="displayYear"></span> All Rights Reserved 
+      &copy; <span id="displayYear"></span> All Rights Reserved
     </p>
   </section>
   <!-- footer section -->

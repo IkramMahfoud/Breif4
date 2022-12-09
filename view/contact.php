@@ -9,26 +9,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Site Metas -->
     <meta name="keywords" content="rings , Bracelet, neckless, jawllery" />
-  <meta name="description" content="this is the best store ever for finding the gold jawllery in the world!" />
+    <meta name="description" content="this is the best store ever for finding the gold jawllery in the world!" />
     <meta name="author" content="" />
 
     <title>GOLD STORE</title>
 
     <!-- slider stylesheet -->
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
     <!-- fonts style -->
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/contact.css">
+
+    <?php
+    // include_once 'gallery.php';
+    // include_once 'about.php';
+    // include_once 'index.php';
+    // include_once 'submitContact.php';
+
+    ?>
 </head>
 
 <body class="sub_page">
@@ -38,15 +44,13 @@
         <header class="header_section">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="images/logo.png" alt="">
                         <span>
                             Gold
                         </span>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -54,17 +58,16 @@
                         <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                             <ul class="navbar-nav  ">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span
-                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                    <a class="nav-link" href="gallery.php">Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About </a>
+                                    <a class="nav-link" href="about.php">About </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact.php">Contact</a>
                                 </li>
                             </ul>
 
@@ -79,10 +82,12 @@
 
 
     <!--cart contact section-->
-    
-    <div class="cart-container" >
+
+    <div class="cart-container">
         <div class="contact-box">
-            <div class="up"><h2>Contact Us</h2><br> </div>
+            <div class="up">
+                <h2>Contact Us</h2><br>
+            </div>
             <div class="all">
                 <div class="left">
                     <div>
@@ -100,18 +105,18 @@
                     </div>
                     <div>
                         <label>Message</label><br>
-                        <textarea class="feild" ></textarea>
+                        <textarea class="feild"></textarea>
                     </div>
-                       <a href="submitContact.html"><button>Submit</button> </a>
+                    <a href="submitContact.php"><button>Submit</button> </a>
                 </div>
                 <div class="right">
                     <img id="Imgc" src="./images/e.jpg" alt="img">
                 </div>
-                
+
             </div>
         </div>
-        </div>
-   
+    </div>
+
     <!--end cart contact section-->
 
 

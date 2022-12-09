@@ -27,15 +27,14 @@
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/contact.css">
-
-    <?php
-    include_once 'gallery.php';
-    include_once 'about.php';
-    include_once 'index.php';
-    include_once 'submitContact.php';
-
-    ?>
 </head>
+
+<?php
+// include_once 'index.php';
+// include_once 'gallery.php';
+// include_once 'about.php';
+// include_once 'contact.php';
+?>
 
 <body class="sub_page">
 
@@ -44,7 +43,7 @@
         <header class="header_section">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="images/logo.png" alt="">
                         <span>
                             Gold
@@ -58,16 +57,16 @@
                         <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                             <ul class="navbar-nav  ">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                    <a class="nav-link" href="gallery.php"> Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About </a>
+                                    <a class="nav-link" href="about.php"> About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact.php"> Contact</a>
                                 </li>
                             </ul>
 
@@ -85,35 +84,16 @@
 
     <div class="cart-container">
         <div class="contact-box">
-            <div class="up">
-                <h2>Contact Us</h2><br>
+            <div class="message">
+                <center>
+                    <p class="medium">Your messge has been sumitted.</p><br>
+                </center>
+                <center>
+                    <p class="light">We have received your message and we are going to be contacting you <br>
+                </center>
+                via the information you provided as soon as we can.</p>
             </div>
-            <div class="all">
-                <div class="left">
-                    <div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <label>Full Name</label><br>
-                        <input type="text" class="field">
-                    </div>
-                    <div>
-                        <label>Phone Number</label><br>
-                        <input type="tel" class="field">
-                    </div>
-                    <div>
-                        <label>E-mail</label><br>
-                        <input type="email" class="field">
-                    </div>
-                    <div>
-                        <label>Message</label><br>
-                        <textarea class="feild"></textarea>
-                    </div>
-                    <a href="submitContact.html"><button>Submit</button> </a>
-                </div>
-                <div class="right">
-                    <img id="Imgc" src="./images/e.jpg" alt="img">
-                </div>
 
-            </div>
         </div>
     </div>
 
